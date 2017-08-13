@@ -10,7 +10,7 @@ header('Content-Type: text/html; charset=utf-8');
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "reyting";
+$dbname = "rating";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
